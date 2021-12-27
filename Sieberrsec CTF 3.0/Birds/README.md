@@ -4,7 +4,7 @@
 
 **Hint 1:** you may want to google for other instances of mp3 files in CTFs
 
-You can hear the sound of birds chirping when you open the mp3 file. The sound gets louder in the middle of the mp3, which could mean something. We can open up Sonic Visualiser to analyse the file.
+You can hear the sound of birds chirping when you open suspiciousbirds.mp3. The sound gets louder in the middle of the mp3, which could mean something. We can open up Sonic Visualiser to analyse the file.
 
 <p align = "center"><img src="sound.JPG" alt="alt text" width="50%" height="50%" /></p>
 
