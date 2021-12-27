@@ -1,4 +1,4 @@
-# Shalom Shalom
+# plush, lush, flush, blush
 
 <p align = "center"><img src="challenge.JPG" alt="alt text" width="50%" height="50%" /></p>
 
