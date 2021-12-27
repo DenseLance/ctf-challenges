@@ -22,9 +22,12 @@ Since it is a structure being built, we can check the Structures folder first.
 
 <p align = "center"><img src="structures.JPG" alt="alt text" width="50%" height="50%" /></p>
 
-You will see a *sus* image in r.7.5.png. Rotate the image to get the flag:
+You will see a *sus* image in r.7.5.png.
+
+<p align = "center"><img src="sus.png" alt="alt text" width="75%" height="75%" /></p>
+
+Rotate the image to get the flag:
 
 ```
 IRS{M1N3VI3W3R}
 ```
-<p align = "center"><img src="sus.png" alt="alt text" width="75%" height="75%" /></p>
