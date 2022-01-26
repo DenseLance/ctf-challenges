@@ -1,6 +1,6 @@
 # Top 5 Chinese Singers
 
-<p align = "center"><img src="zhongxina.JPG" alt="alt text" width="40%" height="40%" /></p>
+<p align = "center"><img src="zhongxina.jpg" alt="alt text" width="40%" height="40%" /></p>
 
 Oh no! Zhong Xina lost all his social credit and he needs your help to get them back. To help Zhong, all you need to do is to take the <a href = "http://77e5-2406-3003-206f-4bd3-8582-32b0-81fc-2a6.ngrok.io/">social credit test</a> for him. The examiner told him to submit a picture of the original artist who sang one of the songs found <a href = "https://www.youtube.com/watch?v=KU41dey4YYI">here</a>. The picture can be found on China's Wikipedia.
 
