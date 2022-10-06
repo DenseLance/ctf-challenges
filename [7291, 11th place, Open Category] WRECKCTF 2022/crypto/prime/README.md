@@ -74,5 +74,5 @@ target.close()
 This gives us the flag:
 
 ```
-flag{gary_gary_gary_gary_gary_gary}
+flag{yep_it's_definitely_prime}
 ```
