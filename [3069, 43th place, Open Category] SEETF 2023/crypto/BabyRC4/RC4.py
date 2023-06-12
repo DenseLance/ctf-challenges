@@ -10,7 +10,3 @@ for i in range(0, len(unknownCiphertext)):
     decrypted.append(p ^ c1 ^ c0)
 
 print(decrypted[::-1])
-
-
-
-

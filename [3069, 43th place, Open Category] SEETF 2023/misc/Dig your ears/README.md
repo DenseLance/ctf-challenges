@@ -4,9 +4,9 @@
 
 Opening `sample.wav` on <a href = "https://www.sonicvisualiser.org/">Sonic Visualiser</a> and adding a spectrogram layer gave me something similar to morse code.
 
-<p align = "center"><img src="sonic_visualiser.JPG" alt="alt text" width="75%" height="75%" /></p>
+<p align = "center"><img src="sonic_visualiser.jpg" alt="alt text" width="75%" height="75%" /></p>
 
-<p align = "center"><img src="spectrogram.JPG" alt="alt text" width="75%" height="75%" /></p>
+<p align = "center"><img src="spectrogram.jpg" alt="alt text" width="75%" height="75%" /></p>
 
 Except that it ain't morse code, since no substantial results were obtained when running the file on a <a href = "https://morsecode.world/international/decoder/audio-decoder-adaptive.html">morse code decoder</a>. I read the question again and it says that "bits are encoded every 10 miliseconds". I manually recorded down all of the bits on a piece of paper, then converted it back to text through this code:
 

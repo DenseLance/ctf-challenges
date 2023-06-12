@@ -86,7 +86,7 @@ hashcat.exe -m 10 -a 0 "66eb31bd62afe3e486004ce6ecec885c:700f64fafd7f6944" rocky
 
 This gives us the correct password:
 
-<p align = "center"><img src="hashcat.JPG" alt="alt text" width="75%" height="75%" /></p>
+<p align = "center"><img src="hashcat.jpg" alt="alt text" width="75%" height="75%" /></p>
 
 We can combine the password and gesture to get the flag:
 

@@ -9,7 +9,7 @@ Signature: 8c6f2d4d5eb89748ca46b11da509abb1d7a1c80e802ed071c63d5d7ca9109319
 Hash: 8c6f2d4d5eb89748ca46b11da509abb1d7a1c80e802ed071c63d5d7ca9109319
 Password: 95184
 
-The gesture is 95184.
+Pattern is 95184.
 """
 
 import struct
