@@ -78,7 +78,7 @@ Password: 6dfe4d0c832761398b38d7cfad64d78760debad266eb31bd62afe3e486004ce6ecec88
 Salt: 700f64fafd7f6944
 ```
 
-From this <a href ="https://www.web3us.com/cyber-security/breaking-samsung-android-passwordspin">resource</a>, we now know that the hashed password found in `password.key` is actually made up of two parts: the first 20 bytes was a SHA1 hash and the last 12 bytes was a MD5 hash. As we also know that the password can be found in <a href = "https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt">rockyou.txt</a>, we can use <a href= "https://hashcat.net/hashcat/">hashcat</a> to find the password which has a hash that matches with our password.  We parse it to hashcat on our command prompt as such:
+From this <a href ="https://www.web3us.com/cyber-security/breaking-samsung-android-passwordspin">resource</a>, we now know that the hashed password found in `password.key` is actually made up of two parts: the first 20 bytes was a SHA1 hash and the last 16 bytes was a MD5 hash. As we also know that the password can be found in <a href = "https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt">rockyou.txt</a>, we can use <a href= "https://hashcat.net/hashcat/">hashcat</a> to find the password which has a hash that matches with our password.  We parse it to hashcat on our command prompt as such:
 
 ```shell
 hashcat.exe -m 10 -a 0 "66eb31bd62afe3e486004ce6ecec885c:700f64fafd7f6944" rockyou.txt
