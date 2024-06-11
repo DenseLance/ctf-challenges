@@ -1,8 +1,6 @@
 # crypto/rad-be-damned
 
-<p align = "center">
-    <img src="challenge.JPG" alt="alt text" width="75%" height="75%" />
-</p>
+<p align = "center"><img src="challenge.JPG" alt="alt text" width="75%" height="75%" /></p>
 
 <details> 
   <summary><b>Hint 1</b></summary>
@@ -25,7 +23,7 @@ def find_leftmost_set_bit(plaintext):
         plaintext = plaintext >> 1
         pos += 1
     return pos
-        
+
 def encrypt(plaintext: str):
     enc_plaintext = ""
 
@@ -37,7 +35,7 @@ def encrypt(plaintext: str):
             first_pos = find_leftmost_set_bit(rem)
             rem = rem ^ (cp << (first_pos - cp_length))
         enc_plaintext += format(bin_letter, "08b") + format(rem, "0" + f"{cp_length - 1}" + "b")
-        
+
     return enc_plaintext
 
 def rad(text: str):
@@ -73,7 +71,7 @@ def find_leftmost_set_bit(plaintext):
         plaintext = plaintext >> 1
         pos += 1
     return pos
-        
+
 def encrypt(plaintext: str):
     enc_plaintext = ""
 
@@ -85,7 +83,7 @@ def encrypt(plaintext: str):
             first_pos = find_leftmost_set_bit(rem)
             rem = rem ^ (cp << (first_pos - cp_length))
         enc_plaintext += format(bin_letter, "08b") + format(rem, "0" + f"{cp_length - 1}" + "b")
-        
+
     return enc_plaintext
 
 # how CRC can be used for bit correction: https://stackoverflow.com/a/55921741
@@ -100,7 +98,6 @@ for i in range(0, len(output), 12):
             result += dictionary[y]
 
 print("Flag:", result)
-
 ```
 
 We then output the flag:
