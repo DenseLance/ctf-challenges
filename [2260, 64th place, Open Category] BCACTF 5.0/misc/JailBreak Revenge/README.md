@@ -1,8 +1,6 @@
 # misc/JailBreak Revenge
 
-<p align = "center">
-    <img src="challenge.JPG" alt="alt text" width="75%" height="75%" />
-</p>
+<p align = "center"><img src="challenge.JPG" alt="alt text" width="75%" height="75%" /></p>
 
 <details> 
   <summary><b>Hint 1</b></summary>

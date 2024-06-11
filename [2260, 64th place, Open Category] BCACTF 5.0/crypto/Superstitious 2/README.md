@@ -1,6 +1,4 @@
-<p align = "center">
-    <img src="challenge.JPG" alt="alt text" width="75%" height="75%" />
-</p>
+<p align = "center"><img src="challenge.JPG" alt="alt text" width="75%" height="75%" /></p>
 
 Picky with primes? It can't be that bad, right? I saw the process of how the primes `p` and `q` were generated and was in utter shock.
 
@@ -22,15 +20,11 @@ My first idea was to use the [Coppersmith Method](https://en.wikipedia.org/wiki/
 
 I ventured out on Google and stumbled upon this [research paper](https://hal.science/hal-03045663/document), where it describes how RSA can be attacked given a sufficient number of non-contiguous bits of `p` and `q`.
 
-<p align = "center">
-    <img src="research paper 1.JPG" alt="alt text" width="75%" height="75%" />
-</p>
+<p align = "center"><img src="research paper 1.JPG" alt="alt text" width="75%" height="75%" /></p>
 
 The paper mentions that a branch and prune algorithm would be able to solve for the unknown bits of both primes, with the branching factor = 2 for unknown bits, and converges back to 1 when known bits are reached. Pruning is also done automatically by removing nodes which do not satisfy the condition `(LSB(p, i) * LSB(q, i)) % pow(2, i) == LSB(n) % pow(2, i)`, where `i` equals to the current depth of the traversed tree.
 
-<p align = "center">
-    <img src="research paper 2.JPG" alt="alt text" width="75%" height="75%" />
-</p>
+<p align = "center"><img src="research paper 2.JPG" alt="alt text" width="75%" height="75%" /></p>
 
 As suggested by the paper, we use a depth-first search which provided greater efficiency. Our code, as shown below, is a complete implementation and can be used in other situations where the bit pattern of `p` and `q` are non-standard.
 
@@ -87,8 +81,6 @@ phi = (p - 1) * (q - 1)
 d = pow(e, -1, phi)
 m = pow(c, d, n)
 print("Flag:", long_to_bytes(m).decode())
-
-
 ```
 
 Using a tree search, we were able to obtain `p` and `q`:

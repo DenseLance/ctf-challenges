@@ -1,8 +1,6 @@
 # misc/JailBreak 1
 
-<p align = "center">
-    <img src="challenge.JPG" alt="alt text" width="75%" height="75%" />
-</p>
+<p align = "center"><img src="challenge.JPG" alt="alt text" width="75%" height="75%" /></p>
 
 <details> 
   <summary><b>Hint 1</b></summary>
@@ -33,9 +31,7 @@ help(locals()["\146\154\141\147"])
 
 Ah yes, we found the flag!
 
-<p align = "center">
-    <img src="result.JPG" alt="alt text" width="75%" height="75%" />
-</p>
+<p align = "center"><img src="result.JPG" alt="alt text" width="75%" height="75%" /></p>
 
 ```
 bcactf{PyTH0n_pR0_03ed78292b89c}
