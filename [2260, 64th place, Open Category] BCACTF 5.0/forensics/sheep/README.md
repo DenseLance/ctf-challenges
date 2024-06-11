@@ -1,6 +1,6 @@
 # forensics/sheep
 
-<p align = "center"><img src="challenge.JPG" alt="alt text" width="75%" height="75%" /></p>
+<p align = "center"><img src="challenge.jpg" alt="alt text" width="75%" height="75%" /></p>
 
 <details> 
   <summary><b>Hint 1</b></summary>
@@ -28,7 +28,7 @@ plt.show()
 
 We managed to get the flag! 
 
-<p align = "center"><img src="sheep.PNG" alt="alt text" width="75%" height="75%" /></p>
+<p align = "center"><img src="sheep.jpg" alt="alt text" width="75%" height="75%" /></p>
 
 ```
 bcactf{SHaPE_f1lEd_b54a11ac9c87c8}
