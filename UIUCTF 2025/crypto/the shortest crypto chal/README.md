@@ -1,6 +1,6 @@
 # the shortest crypto chal
 
-<p align = "center"><img src="challenge.JPG" alt="alt text" width="50%" height="50%" /></p>
+<p align = "center"><img src="challenge.jpg" alt="alt text" width="50%" height="50%" /></p>
 
 A peek into the code shows a one-liner assertion, but it isn't as simple as it looks.
 

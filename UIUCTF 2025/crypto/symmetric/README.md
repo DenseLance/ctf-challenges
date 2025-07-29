@@ -1,6 +1,6 @@
 # symmetric
 
-<p align = "center"><img src="challenge.JPG" alt="alt text" width="50%" height="50%" /></p>
+<p align = "center"><img src="challenge.jpg" alt="alt text" width="50%" height="50%" /></p>
 
 Another multi-prime RSA! This time, we get some clues about the primes `p`, `q`, `r`, `s`:
 

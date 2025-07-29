@@ -1,6 +1,6 @@
 # back to roots
 
-<p align = "center"><img src="challenge.JPG" alt="alt text" width="50%" height="50%" /></p>
+<p align = "center"><img src="challenge.jpg" alt="alt text" width="50%" height="50%" /></p>
 
 The challenge says we get the value of a number's square root. Hmm, that should be easy! Wait a minute... why do they only give the values after the decimal place?
 

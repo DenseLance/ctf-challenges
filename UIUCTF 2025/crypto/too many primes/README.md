@@ -1,6 +1,6 @@
 # too many primes
 
-<p align = "center"><img src="challenge.JPG" alt="alt text" width="50%" height="50%" /></p>
+<p align = "center"><img src="challenge.jpg" alt="alt text" width="50%" height="50%" /></p>
 
 It's a multi-prime RSA. It looks difficult, but the code below says otherwise:
 
